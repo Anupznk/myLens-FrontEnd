@@ -1,0 +1,31 @@
+.container{
+
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: left;
+    /*align-items: center;*/
+
+}
+
+.wrapper{
+
+}
+
+.icon{
+
+
+}
+
+.mobile{
+
+    display: inline;
+}
+
+p {
+    font-size: .9em;
+
+}
+
+ul li {
+    font-size: .9em;
+}

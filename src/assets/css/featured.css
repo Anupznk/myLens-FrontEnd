@@ -1,0 +1,27 @@
+.featured-container{
+    margin-left: 160px;
+    margin-right: 160px;
+    color: #293340;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.featured-pre-title{
+    font-weight: bold;
+}
+
+.featured-title{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+@media only screen and (max-width: 1020px) {
+    .featured-container {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 50px;
+    }
+    .featured-title{
+        font-size: 1.8em;
+    }
+}

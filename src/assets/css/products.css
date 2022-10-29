@@ -1,0 +1,214 @@
+
+
+.merchant-tag{
+    margin-top: -6.5em;
+    margin-left: 1em;
+    position: relative;
+    z-index: 99;
+}
+
+.filledBtn {
+    border-radius: .75em;
+    padding: .75em;
+    font-size: 0.8em;
+    font-family: Poppins;
+    text-transform: none;
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--button_color);
+    color: white;
+}
+
+.disabledBtn {
+    border-radius: .75em;
+    padding: .75em;
+    font-size: 0.8em;
+    font-family: Poppins;
+    text-transform: none;
+    width: 100%;
+    border-color: #e0e0e0;
+
+    background-color: #e0e0e0;
+    color: #858585;
+}
+
+.outlinedBtn {
+    border-radius: .75em;
+    padding: .75em;
+    font-size: 0.8em;
+    background-color: white;
+    font-family: Poppins;
+    text-transform: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.prodCard {
+    border-radius: 1em;
+    margin-left: 4px;
+    width: 100%;
+    padding-top: .1em;
+    position: relative;
+    animation: fadeInAnimation ease 1s;
+}
+
+.chip-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.date-prompt-container {
+
+    padding: 2em;
+}
+
+.date-text {
+    font-size: 1.6em;
+
+    margin-bottom: 1em;
+    color: var(--text_color);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.dialog-header {
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    display: block;
+    text-align: center;
+}
+
+.dialog-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.date-text-disabled {
+    font-size: 1em;
+    color: #7d837e;
+}
+
+.text-price {
+    font-size: .75em;
+    /*font-weight: bold;*/
+}
+
+
+.titleText {
+    font-size: 1em;
+    padding-bottom: .25em;
+}
+
+.prodCard:hover {
+    box-shadow: 0 0 10px rgba(61, 51, 64, 0.23);
+
+}
+
+.swap-on-hover {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.swap-on-hover img {
+    overflow: hidden;
+}
+
+
+.swap-on-hover .swap-on-hover__front-image {
+    z-index: 9999;
+    transition: opacity .25s linear;
+    cursor: pointer;
+}
+
+.swap-on-hover .swap-on-hover__back-image {
+    transition: opacity .25s linear;
+    cursor: pointer;
+}
+
+.swap-on-hover .swap-on-hover__back-image {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.swap-on-hover:hover > .swap-on-hover__front-image {
+    opacity: 0;
+}
+
+.swap-on-hover:hover > .swap-on-hover__back-image {
+    opacity: 100;
+}
+
+.typeText {
+    background-color: #3b5c9e;
+    color: white;
+    display: inline;
+    border-radius: 0 0 2px 2px;
+    padding: .25em;
+}
+
+.typeIconMale {
+    background-color: #3a7cff;
+    width: 36px;
+    height: 36px;
+    margin-top: 4px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+}
+
+.typeIconFemale {
+    background-color: #fd5183;
+    width: 36px;
+    margin-top: 4px;
+    text-align: center;
+    height: 36px;
+    color: white;
+    border-radius: 50%;
+}
+
+.typeIc {
+    padding-top: 5px;
+}
+
+.availabilityText {
+    margin-top: .75em;
+  
+    text-align: left;
+    color: #258F67;
+}
+
+.unAvailabilityText {
+    margin-top: .75em;
+
+    text-align: left;
+    color: #fd5183;
+    /*font-weight: bold;*/
+}
+
+@media only screen and (max-width: 1020px) {
+
+    .prodCard {
+        transform: translateX(-4px);
+    }
+
+    .fullscreen-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .merchant-tag{
+        margin-top: -2em;
+    }
+
+}

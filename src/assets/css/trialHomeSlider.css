@@ -1,0 +1,8 @@
+.slider-container{
+    z-index: 10000;
+}
+
+.trial-slider{
+    /* border: 5px solid #6C63FF; */
+    min-height: 98.75vh;
+}
